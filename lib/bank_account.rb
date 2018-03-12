@@ -12,10 +12,10 @@ class BankAccount
   end
   
   def display_balance
-    puts self.balance    
+    puts balance    
   end
   
   def valid?
-    
+    if   
   end
 end

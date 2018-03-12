@@ -12,6 +12,6 @@ class BankAccount
   end
   
   def display_balance
-    
+    puts self.balance    
   end
 end

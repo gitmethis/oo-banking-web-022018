@@ -10,8 +10,8 @@ class Transfer
     @amount = amount
   end
   
-    def valid?
-    if status == 'open' && balance > 0
+  def valid?
+    if sender.status == 'open' && sender.balance > 0 &&  receiver.status == 'open' 
        return true  
     end
     return false

@@ -14,4 +14,8 @@ class BankAccount
   def display_balance
     puts self.balance    
   end
+  
+  def valid?
+    
+  end
 end
